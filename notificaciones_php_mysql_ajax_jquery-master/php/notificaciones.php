@@ -1,5 +1,5 @@
 <?php
-$conn = new mysqli("localhost","root","","notificaciones");
+$conn = new mysqli("34.123.231.44","adan","patata","notificaciones");
 
 $sql = "UPDATE datos SET estado = 1 WHERE estado = 0";	
 $result = mysqli_query($conn, $sql);

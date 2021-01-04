@@ -1,5 +1,5 @@
 <?php
-	$conn = new mysqli("localhost","root","","notificaciones");
+	$conn = new mysqli("34.123.231.44","adan","patata","notificaciones");
 	$count=0;
 	if(!empty($_POST['add'])) {
 		$autor = mysqli_real_escape_string($conn,$_POST["autor"]);
