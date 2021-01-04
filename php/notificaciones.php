@@ -4,7 +4,7 @@ $conn = new mysqli("34.123.231.44","adan","patata","notificaciones");
 $sql = "UPDATE datos SET estado = 1 WHERE estado = 0";	
 $result = mysqli_query($conn, $sql);
 
-$sql = "SELECT * FROM datos WHERE destinatario ='adanabad' ORDER BY id DESC LIMIT 10";
+$sql = "SELECT * FROM datos WHERE destinatario =adanabad ORDER BY id DESC LIMIT 10";
 $result = mysqli_query($conn, $sql);
 
 $response='';
