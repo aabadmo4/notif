@@ -68,9 +68,13 @@
           <p class="lead">
 
               <form name="frmNotification" id="frmNotification" action="php/agregarnotificacion.php" method="post" >
-                <div class="form-group">
+               <div class="form-group">
                   <label for="autor">Autor </label>
                   <input type="text" class="form-control" name="autor" id="autor" placeholder="Ingresa Autor" required>
+                </div>
+                <div class="form-group">
+                  <label for="autor">Destinatario </label>
+                  <input type="text" class="form-control" name="destinatario" id="autor" placeholder="Ingresa dest" required>
                 </div>
                 <div class="form-group">
                   <label for="mensaje">Mensaje </label>
