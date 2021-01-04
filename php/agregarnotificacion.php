@@ -4,7 +4,7 @@
 	if(!empty($_POST['add'])) {
 		$autor = mysqli_real_escape_string($conn,$_POST["autor"]);
 		$mensaje = mysqli_real_escape_string($conn,$_POST["mensaje"]);
-		$sql = "INSERT INTO datos (autor,mensaje) VALUES('" . $autor . "','" . $mensaje . "')";
+		$sql = "INSERT INTO datos (autor,mensaje, destinatario) VALUES('" . $autor . "','" . $mensaje . "',' adanabad')";
 		mysqli_query($conn, $sql);
 	}
 	$sql2="SELECT * FROM datos WHERE estado = 0";
