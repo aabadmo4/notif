@@ -88,12 +88,6 @@
 
     </div><!-- /.container -->
 
-    <section class="credito">
-      <div align="center">
-          Desarrollado por <a href="http://www.collectivecloudperu.com" target="_blank">Collective Cloud Perú</a>
-      </div> 
-    </section>
-
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
