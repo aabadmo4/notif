@@ -17,7 +17,7 @@ while($row=mysqli_fetch_array($result)) {
 
 	$response = $response . "<div class='notification-item'>" .
 	"<div class='notification-subject'>". $row["autor"] . " - <span>". $fechaFormateada . "</span> </div>" . 
-	"<div class='notification-comment'>" . "Destinatario:". $row["destinatario"]. "". $row["mensaje"]  . "</div>" .
+	"<div class='notification-comment'>" . "Destinatario:". $row["destinatario"]. "<br>". $row["mensaje"]  . "</div>" .
 	"</div>";
 }
 if(!empty($response)) {
