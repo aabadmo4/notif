@@ -23,7 +23,7 @@
   <body>
 
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="#">Mi Proyecto</a>
+      <a class="navbar-brand" href="#">Intranet Nubezar</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -33,17 +33,6 @@
           <li class="nav-item active">
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>          
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="http://collectivecloudperu.com/blogdevs/" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nosotros</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="#">Misión</a>
-              <a class="dropdown-item" href="#">Prensa</a>
-              <a class="dropdown-item" href="#">Visión</a>              
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Nosotros</a>
-          </li>
         </ul>
 
         <?php
@@ -73,7 +62,8 @@
     <div class="container">
 
       <div class="starter-template">
-          <h1>Sistema de Notificaciones con PHP,  MySQL y Ajax jQuery </h1>
+          <h1>Sistema de Notificaciones</h1>
+          <h2>Connect</h2>
 
           <p class="lead">
 
